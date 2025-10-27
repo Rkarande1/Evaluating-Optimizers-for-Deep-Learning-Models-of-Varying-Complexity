@@ -18,7 +18,7 @@ The study tested the performance of **SGD**, **SGD+Momentum+WeightDecay**, **RMS
 | Architecture | Task | Best Optimizer | Test Metric | Result | Insight |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **LeNet-5** (Classifier) | Image Classification (CIFAR-10) | **AdamW** | Test Accuracy | **70.08%** | AdamW converged the earliest in validation loss and achieved the highest final test accuracy. |
-| **UNet** (Segmenter) | Semantic Segmentation (Pascal VOC 2012) | **Adam** | Test mIoU | **6.18%** | Adaptive learning rates helped navigate the complex loss landscape[cite: 155]. Adam consistently reached the highest mIoU. |
+| **UNet** (Segmenter) | Semantic Segmentation (Pascal VOC 2012) | **Adam** | Test mIoU | **6.18%** | Adaptive learning rates helped navigate the complex loss landscape. Adam consistently reached the highest mIoU. |
 
 ### Core Takeaways:
 
