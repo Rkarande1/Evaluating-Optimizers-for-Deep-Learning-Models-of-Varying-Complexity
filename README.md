@@ -22,9 +22,9 @@ The study tested the performance of **SGD**, **SGD+Momentum+WeightDecay**, **RMS
 
 ### Core Takeaways:
 
-* **For Simple Tasks (LeNet-5/CIFAR-10):** Optimizers like **AdamW** and **Adam**, along with **SGD with Momentum**, consistently achieved test accuracies of roughly **$70\%$**[cite: 149].
-* **For Complex Tasks (UNet/Pascal VOC):** **Adam** and **AdamW** pulled ahead of others with faster convergence [cite: 167] and better final performance[cite: 154], demonstrating that adaptive learning rates are highly beneficial.
-* **The SGD+Momentum+Weight Decay** optimizer struggled significantly with the UNet segmentation task, achieving only **$1.28\%$ mIoU** [cite: 143, 158], suggesting difficulty adapting to a rugged loss landscape.
+* **For Simple Tasks (LeNet-5/CIFAR-10):** Optimizers like **AdamW** and **Adam**, along with **SGD with Momentum**, consistently achieved test accuracies of roughly **$70\%$**.
+* **For Complex Tasks (UNet/Pascal VOC):** **Adam** and **AdamW** pulled ahead of others with faster convergence and better final performance, demonstrating that adaptive learning rates are highly beneficial.
+* **The SGD+Momentum+Weight Decay** optimizer struggled significantly with the UNet segmentation task, achieving only **$1.28\%$ mIoU**, suggesting difficulty adapting to a rugged loss landscape.
 
 ---
 
