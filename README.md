@@ -39,7 +39,7 @@ The study tested the performance of **SGD**, **SGD+Momentum+WeightDecay**, **RMS
 
 | Dataset | Task | Characteristics |
 | :--- | :--- | :--- |
-| **CIFAR-10**  | Image Classification | 60,000 $32\times32$ color images in 10 classes; **perfectly balanced**]. |
+| **CIFAR-10**  | Image Classification | 60,000 $32\times32$ color images in 10 classes; **perfectly balanced**. |
 | **Pascal VOC 2012**  | Semantic Segmentation | Images with pixel-level annotations for 20 foreground classes; has a **very high data imbalance**. |
 
 ### 3. Training and Evaluation
