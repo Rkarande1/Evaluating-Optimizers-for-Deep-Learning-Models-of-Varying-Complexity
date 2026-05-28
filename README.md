@@ -84,12 +84,12 @@ python scripts/train_unet.py
 # References
 The architecture definitions and core concepts are based on the following seminal works:
 
-[1] LeNet-5: Y. LeCun et al. (1998). Gradient-based learning applied to document recognition.
+ LeNet-5: Y. LeCun et al. (1998). Gradient-based learning applied to document recognition.
 
-[7] UNet: O. Ronneberger et al. (2015). U-Net: Convolutional networks for biomedical image segmentation.
+ UNet: O. Ronneberger et al. (2015). U-Net: Convolutional networks for biomedical image segmentation.
 
-[6] Adam: Kingma, D. P. & Ba, J. (2015). Adam: A method for stochastic optimization.
+ Adam: Kingma, D. P. & Ba, J. (2015). Adam: A method for stochastic optimization.
 
-[9] AdamW: Loshchilov, I. & Hutter, F. (2019). Decoupled weight decay regularization.
+ AdamW: Loshchilov, I. & Hutter, F. (2019). Decoupled weight decay regularization.
 
-[8] Optuna: Akiba, T. et al. (2019). Optuna: A next-generation hyperparameter optimization framework.
+ Optuna: Akiba, T. et al. (2019). Optuna: A next-generation hyperparameter optimization framework.
